@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { exampleProducts } from '@monorepo-app/products';
 
 @Component({
   selector: 'monorepo-app-root',
@@ -7,6 +6,5 @@ import { exampleProducts } from '@monorepo-app/products';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'store';
-  products = exampleProducts;
+  title = 'admin';
 }

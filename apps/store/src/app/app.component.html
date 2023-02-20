@@ -1,2 +1,7 @@
-<monorepo-app-nx-welcome></monorepo-app-nx-welcome>
+<monorepo-app-banner title="Store Banner"></monorepo-app-banner>
+<ul>
+  <li *ngFor="let product of products">
+    <strong>{{ product.name }}</strong> Price: {{ product.price }}
+  </li>
+</ul>
 <router-outlet></router-outlet>
